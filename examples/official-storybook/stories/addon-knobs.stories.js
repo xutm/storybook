@@ -51,12 +51,8 @@ storiesOf('Addons|Knobs.withKnobs', module)
   .add('tweaks static values', () => {
     const name = text('Name', 'Storyteller');
     const age = number('Age', 70, { range: true, min: 0, max: 90, step: 5 });
-    const fruits = {
-      apple: 'Apple',
-      banana: 'Banana',
-      cherry: 'Cherry',
-    };
-    const fruit = select('Fruit', fruits, 'apple');
+    const fruits = ['Apple', 'Banana', 'Cherry'];
+    const fruit = select('Fruit', fruits, 'Apple');
     const otherFruits = {
       Lime: 'lime',
       Coconut: 'coconut',
