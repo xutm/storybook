@@ -1,52 +1,52 @@
 {
   "assetsByChunkName": {
     "path---configurations-default-config": [
-      "path---configurations-default-config-2ceed5de441a6f8cfd9c.js",
-      "path---configurations-default-config-2ceed5de441a6f8cfd9c.js.map"
+      "path---configurations-default-config-f20b569dbd609ff0718e.js",
+      "path---configurations-default-config-f20b569dbd609ff0718e.js.map"
     ],
     "path---addons-addon-gallery": [
-      "path---addons-addon-gallery-274e1ae075503ca7c1f3.js",
-      "path---addons-addon-gallery-274e1ae075503ca7c1f3.js.map"
+      "path---addons-addon-gallery-198c8732170ec55ec58d.js",
+      "path---addons-addon-gallery-198c8732170ec55ec58d.js.map"
     ],
     "path---basics-faq": [
-      "path---basics-faq-d1f4c797cf83e096c588.js",
-      "path---basics-faq-d1f4c797cf83e096c588.js.map"
+      "path---basics-faq-33c4707b1eb5365b2c9a.js",
+      "path---basics-faq-33c4707b1eb5365b2c9a.js.map"
     ],
     "path---examples": [
       "path---examples-a0e39f21c11f6a62c5ab.js",
       "path---examples-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---configurations-cli-options": [
-      "path---configurations-cli-options-531f2a87c640820d7c8e.js",
-      "path---configurations-cli-options-531f2a87c640820d7c8e.js.map"
+      "path---configurations-cli-options-76c8ef28b6cdb685a776.js",
+      "path---configurations-cli-options-76c8ef28b6cdb685a776.js.map"
     ],
     "component---src-templates-docstemplate-jsx": [
       "component---src-templates-docstemplate-jsx-41278ef396083cab6b67.js",
       "component---src-templates-docstemplate-jsx-41278ef396083cab6b67.js.map"
     ],
     "path---configurations-add-custom-head-tags": [
-      "path---configurations-add-custom-head-tags-5f7c273eeacd5c17cb06.js",
-      "path---configurations-add-custom-head-tags-5f7c273eeacd5c17cb06.js.map"
+      "path---configurations-add-custom-head-tags-c7f9116377987d803fed.js",
+      "path---configurations-add-custom-head-tags-c7f9116377987d803fed.js.map"
     ],
     "path---testing-react-ui-testing": [
-      "path---testing-react-ui-testing-175b9644a793c5923345.js",
-      "path---testing-react-ui-testing-175b9644a793c5923345.js.map"
+      "path---testing-react-ui-testing-4af7600e39ac4c46fd1f.js",
+      "path---testing-react-ui-testing-4af7600e39ac4c46fd1f.js.map"
     ],
     "path---configurations-env-vars": [
-      "path---configurations-env-vars-d5f18f5fe60d61c32929.js",
-      "path---configurations-env-vars-d5f18f5fe60d61c32929.js.map"
+      "path---configurations-env-vars-c77c84bf9d5cf6249467.js",
+      "path---configurations-env-vars-c77c84bf9d5cf6249467.js.map"
     ],
     "path---configurations-custom-babel-config": [
-      "path---configurations-custom-babel-config-cc2017cbaef426fe9ce4.js",
-      "path---configurations-custom-babel-config-cc2017cbaef426fe9ce4.js.map"
+      "path---configurations-custom-babel-config-d4ba8e1b00dce2a957c3.js",
+      "path---configurations-custom-babel-config-d4ba8e1b00dce2a957c3.js.map"
     ],
     "path---basics-quick-start-guide": [
-      "path---basics-quick-start-guide-7fc61c770074040400d9.js",
-      "path---basics-quick-start-guide-7fc61c770074040400d9.js.map"
+      "path---basics-quick-start-guide-dea86576fd9f5d70908b.js",
+      "path---basics-quick-start-guide-dea86576fd9f5d70908b.js.map"
     ],
     "path---testing-manual-testing": [
-      "path---testing-manual-testing-98244ac663d46ab12503.js",
-      "path---testing-manual-testing-98244ac663d46ab12503.js.map"
+      "path---testing-manual-testing-3a7493a3b84c9ce92f35.js",
+      "path---testing-manual-testing-3a7493a3b84c9ce92f35.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -57,44 +57,44 @@
       "component---src-pages-examples-index-jsx-a9aec384d98c5c17fcee.js.map"
     ],
     "path---testing-structural-testing": [
-      "path---testing-structural-testing-40d22ffe553a68d5830c.js",
-      "path---testing-structural-testing-40d22ffe553a68d5830c.js.map"
+      "path---testing-structural-testing-bfc359f271da7655d84c.js",
+      "path---testing-structural-testing-bfc359f271da7655d84c.js.map"
     ],
     "path---addons-using-addons": [
-      "path---addons-using-addons-bfbe2c559e74a5094e99.js",
-      "path---addons-using-addons-bfbe2c559e74a5094e99.js.map"
+      "path---addons-using-addons-e2c6ec3aeac4edaaa8ad.js",
+      "path---addons-using-addons-e2c6ec3aeac4edaaa8ad.js.map"
     ],
     "path---basics-live-examples": [
-      "path---basics-live-examples-681de36ef0cf98b6f90b.js",
-      "path---basics-live-examples-681de36ef0cf98b6f90b.js.map"
+      "path---basics-live-examples-0248e3af3b606aa8163e.js",
+      "path---basics-live-examples-0248e3af3b606aa8163e.js.map"
     ],
     "path---basics-exporting-storybook": [
-      "path---basics-exporting-storybook-0d365952a2424308d1ae.js",
-      "path---basics-exporting-storybook-0d365952a2424308d1ae.js.map"
+      "path---basics-exporting-storybook-b9ea6072cbb91ed2deb8.js",
+      "path---basics-exporting-storybook-b9ea6072cbb91ed2deb8.js.map"
     ],
     "path---basics-guide-angular": [
-      "path---basics-guide-angular-23ae2263fd801802a6d3.js",
-      "path---basics-guide-angular-23ae2263fd801802a6d3.js.map"
+      "path---basics-guide-angular-a2f840fad627bc9a61f0.js",
+      "path---basics-guide-angular-a2f840fad627bc9a61f0.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-70ff8aab09ebf4fbe1d3.js",
       "component---src-layouts-index-js-70ff8aab09ebf4fbe1d3.js.map"
     ],
     "path---addons-introduction": [
-      "path---addons-introduction-4eebd27e706f090f5d12.js",
-      "path---addons-introduction-4eebd27e706f090f5d12.js.map"
+      "path---addons-introduction-fcb25b1f64090f925038.js",
+      "path---addons-introduction-fcb25b1f64090f925038.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---testing-css-style-testing": [
-      "path---testing-css-style-testing-4b12716c8ea2959bb583.js",
-      "path---testing-css-style-testing-4b12716c8ea2959bb583.js.map"
+      "path---testing-css-style-testing-1cc4d618547727b3bc0a.js",
+      "path---testing-css-style-testing-1cc4d618547727b3bc0a.js.map"
     ],
     "path---basics-community": [
-      "path---basics-community-fb9e4ad06f8178e1919d.js",
-      "path---basics-community-fb9e4ad06f8178e1919d.js.map"
+      "path---basics-community-7321a45fd2f0ffd5ed65.js",
+      "path---basics-community-7321a45fd2f0ffd5ed65.js.map"
     ],
     "commons": [
       "commons-2dbeefca245393df6b4e.js",
@@ -103,66 +103,66 @@
       "build-js-styles.css.map"
     ],
     "path---404-html": [
-      "path---404-html-9fade47e6482860d254c.js",
-      "path---404-html-9fade47e6482860d254c.js.map"
+      "path---404-html-b72ee86bc7136311040e.js",
+      "path---404-html-b72ee86bc7136311040e.js.map"
     ],
     "path---basics-writing-stories": [
-      "path---basics-writing-stories-2a469f60359e4591d1bf.js",
-      "path---basics-writing-stories-2a469f60359e4591d1bf.js.map"
+      "path---basics-writing-stories-d70a3df9ddf8d2bbbd30.js",
+      "path---basics-writing-stories-d70a3df9ddf8d2bbbd30.js.map"
     ],
     "path---basics-slow-start-guide": [
-      "path---basics-slow-start-guide-28e87aca1f91dfadbe49.js",
-      "path---basics-slow-start-guide-28e87aca1f91dfadbe49.js.map"
+      "path---basics-slow-start-guide-09c0ca00b11bf541319e.js",
+      "path---basics-slow-start-guide-09c0ca00b11bf541319e.js.map"
     ],
     "path---testing-interaction-testing": [
-      "path---testing-interaction-testing-e2b1fc0c2ca7b909f25e.js",
-      "path---testing-interaction-testing-e2b1fc0c2ca7b909f25e.js.map"
+      "path---testing-interaction-testing-7fa59537900b007dfd85.js",
+      "path---testing-interaction-testing-7fa59537900b007dfd85.js.map"
     ],
     "path---basics-guide-react": [
-      "path---basics-guide-react-b560ee2d47614e0526a5.js",
-      "path---basics-guide-react-b560ee2d47614e0526a5.js.map"
+      "path---basics-guide-react-8a0d2b18e8e7cea2771a.js",
+      "path---basics-guide-react-8a0d2b18e8e7cea2771a.js.map"
     ],
     "component---src-pages-index-jsx": [
       "component---src-pages-index-jsx-1ddd5c05a553ee8942e4.js",
       "component---src-pages-index-jsx-1ddd5c05a553ee8942e4.js.map"
     ],
     "path---configurations-custom-webpack-config": [
-      "path---configurations-custom-webpack-config-70f007589a35464c20d4.js",
-      "path---configurations-custom-webpack-config-70f007589a35464c20d4.js.map"
+      "path---configurations-custom-webpack-config-907e022387b1b759b3b0.js",
+      "path---configurations-custom-webpack-config-907e022387b1b759b3b0.js.map"
     ],
     "path---configurations-typescript-config": [
-      "path---configurations-typescript-config-374f61a2ffe4cf596a54.js",
-      "path---configurations-typescript-config-374f61a2ffe4cf596a54.js.map"
+      "path---configurations-typescript-config-b62fc7a835cb87e4f7db.js",
+      "path---configurations-typescript-config-b62fc7a835cb87e4f7db.js.map"
     ],
     "app": [
-      "app-c714ed3b3907eb4c4767.js",
+      "app-62ba0ff8cfd8a43d0d2b.js",
       "build-js-styles.css",
-      "app-c714ed3b3907eb4c4767.js.map",
+      "app-62ba0ff8cfd8a43d0d2b.js.map",
       "build-js-styles.css.map"
     ],
     "path---addons-api": [
-      "path---addons-api-4f6985a89f4412166e2d.js",
-      "path---addons-api-4f6985a89f4412166e2d.js.map"
+      "path---addons-api-99cc9a86584aede72744.js",
+      "path---addons-api-99cc9a86584aede72744.js.map"
     ],
     "path---basics-introduction": [
-      "path---basics-introduction-dc60093551ce2c2af765.js",
-      "path---basics-introduction-dc60093551ce2c2af765.js.map"
+      "path---basics-introduction-62640a220b345d779515.js",
+      "path---basics-introduction-62640a220b345d779515.js.map"
     ],
     "path---addons-writing-addons": [
-      "path---addons-writing-addons-4c6a63929b57564ca328.js",
-      "path---addons-writing-addons-4c6a63929b57564ca328.js.map"
+      "path---addons-writing-addons-af0cbf53becd9f1151c3.js",
+      "path---addons-writing-addons-af0cbf53becd9f1151c3.js.map"
     ],
     "path---404": [
-      "path---404-9fade47e6482860d254c.js",
-      "path---404-9fade47e6482860d254c.js.map"
+      "path---404-b72ee86bc7136311040e.js",
+      "path---404-b72ee86bc7136311040e.js.map"
     ],
     "path---basics-guide-vue": [
-      "path---basics-guide-vue-aafe33457fb5a7b0dcc6.js",
-      "path---basics-guide-vue-aafe33457fb5a7b0dcc6.js.map"
+      "path---basics-guide-vue-dd7c4cfe58ef9cc7c64b.js",
+      "path---basics-guide-vue-dd7c4cfe58ef9cc7c64b.js.map"
     ],
     "path---configurations-serving-static-files": [
-      "path---configurations-serving-static-files-b84208a8542fa0c947b8.js",
-      "path---configurations-serving-static-files-b84208a8542fa0c947b8.js.map"
+      "path---configurations-serving-static-files-433ab0683bea86aefd82.js",
+      "path---configurations-serving-static-files-433ab0683bea86aefd82.js.map"
     ]
   }
 }
