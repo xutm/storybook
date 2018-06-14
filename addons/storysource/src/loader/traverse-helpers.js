@@ -36,3 +36,18 @@ export function findAddsMap(ast) {
 
   return adds;
 }
+
+export function findDependencies(ast) {
+  const dependencies = new Set();
+
+  estraverse.traverse(ast, {
+    fallback: 'iteration',
+    enter: (node, parent) => {
+      if (parent && parent.type === 'ImportDeclaration' && node.type === 'StringLiteral') {
+        dependencies.add(node.value);
+      }
+    },
+  });
+
+  return dependencies;
+}

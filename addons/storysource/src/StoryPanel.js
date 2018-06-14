@@ -63,14 +63,17 @@ export default class StoryPanel extends Component {
   componentDidMount() {
     const { channel } = this.props;
 
-    channel.on(EVENT_ID, ({ source, currentLocation, locationsMap }) => {
+    channel.on(EVENT_ID, ({ source, currentLocation, locationsMap, dependenciesMap }) => {
       const locationsKeys = getLocationKeys(locationsMap);
+
+      debugger;
 
       this.setState({
         source,
         currentLocation,
         locationsMap,
         locationsKeys,
+        dependenciesMap,
       });
     });
   }

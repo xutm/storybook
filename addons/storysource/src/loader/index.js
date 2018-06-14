@@ -1,7 +1,7 @@
 import { getOptions } from 'loader-utils';
 import injectDecorator from './inject-decorator';
 
-const ADD_DECORATOR_STATEMENT = '.addDecorator(withStorySource(__STORY__, __ADDS_MAP__))';
+const ADD_DECORATOR_STATEMENT = '.addDecorator(withStorySource(__STORY__, __ADDS_MAP__, __DEPENDENCIES_MAP__))';
 
 function transform(source) {
   const options = getOptions(this) || {};
@@ -16,11 +16,13 @@ function transform(source) {
     .replace(/\u2029/g, '\\u2029');
 
   const addsMap = JSON.stringify(result.addsMap);
+  const dependenciesMap = JSON.stringify(result.dependenciesMap);
 
   return `
   var withStorySource = require('@storybook/addon-storysource').withStorySource;
   var __STORY__ = ${sourceJson};
   var __ADDS_MAP__ = ${addsMap};
+  var __DEPENDENCIES_MAP__ = ${dependenciesMap};
   
   ${result.source}
   `;
