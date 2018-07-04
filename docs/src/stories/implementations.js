@@ -23,18 +23,20 @@ import users from './_users.yml';
 import exampleData from './_examples.yml';
 
 export default {
-  'Homepage.page': (
+  'Docs|Homepage.page': (
     <Homepage featuredStorybooks={docsData.featuredStorybooks} users={values(users)} />
   ),
-  'Homepage.header': <Header />,
-  'Homepage.heading': <Heading />,
-  'Homepage.demo': <Demo />,
-  'Homepage.built-for': <Platforms />,
-  'Homepage.main-links': <MainLinks />,
-  'Homepage.featured-storybooks': <Featured featuredStorybooks={docsData.featuredStorybooks} />,
-  'Homepage.used-by': <UsedBy users={values(users)} />,
-  'Homepage.footer': <Footer />,
-  'Docs.page': (
+  'Docs|Homepage.header': <Header />,
+  'Docs|Homepage.heading': <Heading />,
+  'Docs|Homepage.demo': <Demo />,
+  'Docs|Homepage.built-for': <Platforms />,
+  'Docs|Homepage.main-links': <MainLinks />,
+  'Docs|Homepage.featured-storybooks': (
+    <Featured featuredStorybooks={docsData.featuredStorybooks} />
+  ),
+  'Docs|Homepage.used-by': <UsedBy users={values(users)} />,
+  'Docs|Homepage.footer': <Footer />,
+  'Docs|Docs.page': (
     <Docs
       sections={docsData.sections}
       selectedItem={docsData.selectedItem}
@@ -42,7 +44,7 @@ export default {
       selectedCatId="cat-2"
     />
   ),
-  'Docs.docs-container': (
+  'Docs|Docs.docs-container': (
     <DocsContainer
       sections={docsData.sections}
       selectedItem={docsData.selectedItem}
@@ -50,17 +52,17 @@ export default {
       selectedCatId="cat-2"
     />
   ),
-  'Docs.docs-content': (
+  'Docs|Docs.docs-content': (
     <DocsContent title={docsData.selectedItem.title} content={docsData.selectedItem.content} />
   ),
-  'Docs.docs-nav': (
+  'Docs|Docs.docs-nav': (
     <DocsNav
       sections={docsData.sections}
       selectedSection={docsData.selectedItem.sectionId}
       selectedItem={docsData.selectedItem.id}
     />
   ),
-  'Grid.grid-item': <GridItem {...values(exampleData)[0]} />,
-  'Grid.grid': <Grid items={values(exampleData)} columnWidth={300} />,
-  'Grid.examples': <Examples items={values(exampleData)} />,
+  'Docs|Grid.grid-item': <GridItem {...values(exampleData)[0]} />,
+  'Docs|Grid.grid': <Grid items={values(exampleData)} columnWidth={300} />,
+  'Docs|Grid.examples': <Examples items={values(exampleData)} />,
 };

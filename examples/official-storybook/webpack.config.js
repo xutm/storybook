@@ -12,16 +12,22 @@ module.exports = (baseConfig, env, defaultConfig) => ({
         loaders: [require.resolve('@storybook/addon-storysource/loader')],
         include: [
           path.resolve(__dirname, './stories'),
+          path.resolve(__dirname, '../../docs/src'),
           path.resolve(__dirname, '../../lib/ui/src'),
           path.resolve(__dirname, '../../lib/components/src'),
         ],
         enforce: 'pre',
       },
       {
+        test: /\.yml$/,
+        use: ['json-loader', 'yaml-loader'],
+      },
+      {
         test: /\.js/,
         loaders: ['babel-loader'],
         include: [
           path.resolve(__dirname, '../../lib/ui/src'),
+          path.resolve(__dirname, '../../docs/src'),
           path.resolve(__dirname, '../../lib/components/src'),
         ],
       },
