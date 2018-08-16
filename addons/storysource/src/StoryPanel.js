@@ -5,7 +5,7 @@ import jsx from 'react-syntax-highlighter/languages/prism/jsx';
 import { darcula } from 'react-syntax-highlighter/styles/prism';
 import SyntaxHighlighter, { registerLanguage } from 'react-syntax-highlighter/prism-light';
 import { createElement } from 'react-syntax-highlighter';
-import { EVENT_ID } from './';
+import { EVENT_ID } from './events';
 
 // TODO: take from theme
 const highlighterTheme = {
@@ -107,7 +107,7 @@ export default class StoryPanel extends Component {
       })
     );
 
-  createStoryPart(rows, stylesheet, useInlineStyles, location, kindStory) {
+  createStoryPart = (rows, stylesheet, useInlineStyles, location, kindStory) => {
     const { currentLocation } = this.state;
     const first = location.startLoc.line - 1;
     const last = location.endLoc.line;
@@ -137,9 +137,9 @@ export default class StoryPanel extends Component {
         {story}
       </RoutedLink>
     );
-  }
+  };
 
-  createParts(rows, stylesheet, useInlineStyles) {
+  createParts = (rows, stylesheet, useInlineStyles) => {
     const { locationsMap, locationsKeys } = this.state;
 
     const parts = [];
@@ -164,7 +164,7 @@ export default class StoryPanel extends Component {
     parts.push(lastPart);
 
     return parts;
-  }
+  };
 
   lineRenderer = ({ rows, stylesheet, useInlineStyles }) => {
     const { locationsMap, locationsKeys } = this.state;
@@ -180,6 +180,8 @@ export default class StoryPanel extends Component {
 
   render() {
     const { active } = this.props;
+    const { source } = this.state;
+
     return active ? (
       <SyntaxHighlighter
         language="jsx"
@@ -188,7 +190,7 @@ export default class StoryPanel extends Component {
         renderer={this.lineRenderer}
         customStyle={styles.panel}
       >
-        {this.state.source}
+        {source}
       </SyntaxHighlighter>
     ) : null;
   }
