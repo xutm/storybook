@@ -4,6 +4,7 @@ import defaultOptions from './default-options';
 
 import {
   generateSourceWithDecorators,
+  generateSourceWithoutDecorators,
   generateStorySource,
   generateAddsMap,
 } from './generate-helpers';
@@ -38,11 +39,11 @@ function extractDependencies(dependencies, filepath) {
 }
 
 function inject(source, decorator, filepath, options = {}) {
-  const { changed, source: newSource, comments, dependencies } = generateSourceWithDecorators(
-    source,
-    decorator,
-    options.parser
-  );
+  const { injectDecorator = true } = options;
+  const { changed, source: newSource, comments, dependencies } =
+    injectDecorator === true
+      ? generateSourceWithDecorators(source, decorator, options.parser)
+      : generateSourceWithoutDecorators(source, options.parser);
 
   if (!changed) {
     return {

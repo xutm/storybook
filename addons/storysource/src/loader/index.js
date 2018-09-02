@@ -1,7 +1,8 @@
 import { getOptions } from 'loader-utils';
 import injectDecorator from './inject-decorator';
 
-const ADD_DECORATOR_STATEMENT = '.addDecorator(withStorySource(__STORY__, __ADDS_MAP__, __DEPENDENCIES_MAP__))';
+const ADD_DECORATOR_STATEMENT =
+  '.addDecorator(withStorySource(__STORY__, __ADDS_MAP__, __DEPENDENCIES_MAP__))';
 
 function transform(source) {
   const options = getOptions(this) || {};
@@ -19,10 +20,10 @@ function transform(source) {
   const dependenciesMap = JSON.stringify(result.dependenciesMap);
 
   return `
-  var withStorySource = require('@storybook/addon-storysource').withStorySource;
-  var __STORY__ = ${sourceJson};
-  var __ADDS_MAP__ = ${addsMap};
-  var __DEPENDENCIES_MAP__ = ${dependenciesMap};
+  export var withStorySource = require('@storybook/addon-storysource').withStorySource;
+  export var __STORY__ = ${sourceJson};
+  export var __ADDS_MAP__ = ${addsMap};
+  export var __DEPENDENCIES_MAP__ = ${dependenciesMap};
   
   ${result.source}
   `;
