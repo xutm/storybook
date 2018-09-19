@@ -97,7 +97,8 @@ if (!program.skipPackager) {
   exec(
     [
       cliCommand,
-      `--projectRoots ${projectRoots.join(',')}`,
+      `--projectRoot ${projectRoots[0]}`,
+      `--watchFolders ${projectRoots.join(',')}`,
       program.resetCache && '--reset-cache',
       program.packagerPort && `--port=${program.packagerPort}`,
     ]
