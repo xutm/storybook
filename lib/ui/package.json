@@ -25,9 +25,9 @@
     "storybook": "start-storybook -p 9010"
   },
   "dependencies": {
-    "@emotion/core": "0.13.0",
-    "@emotion/provider": "0.11.1",
-    "@emotion/styled": "0.10.5",
+    "@emotion/core": "^0.13.1",
+    "@emotion/provider": "^0.11.2",
+    "@emotion/styled": "^0.10.6",
     "@ndelangen/react-treebeard": "^3.0.0",
     "@storybook/components": "4.0.0-alpha.22",
     "@storybook/core-events": "4.0.0-alpha.22",
